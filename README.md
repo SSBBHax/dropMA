@@ -2,7 +2,7 @@
 I'm sorry. I cannot stress this point enough.
 
 ## Combat Handling
-Combat handling is handled through the "fightMA" combat macro. Further details are available in fightMA.balls
+Combat handling is handled through the "fightMA" combat macro. Further details are available in fightMA.balls :bofa_pride:
 
 ## Outfits
 Below are the outfits used in this script.
