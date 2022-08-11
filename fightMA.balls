@@ -1,0 +1,48 @@
+if monsterid 2088
+    if !haseffect 873
+        if hasskill 7407
+            skill 7407
+        endif
+    endif
+endif
+
+if monsterid 2089 || monsterid 2090 || monsterid 2091 || monsterid 2092 || monsterid 2093
+    if !haseffect 874
+        if hasskill 7406
+            skill 7406
+        endif
+    endif
+endif
+
+if monsterid 1858
+    if !haseffect 875
+        if hasskill 7406
+            skill 7406
+        endif
+    endif
+endif
+
+if monsterid 1859 || monsterid 1860 || monsterid 1861
+    if !haseffect 876
+        if hasskill 7406
+            skill 7406
+        endif
+    endif
+endif
+
+if hasskill 7247
+    skill 7247
+endif
+
+if hascombatitem 9014
+    use 9014
+endif
+
+if hasskill 7245
+    skill 7245
+endif
+
+attack
+repeat !hppercentbelow 10
+
+scrollwhendone
